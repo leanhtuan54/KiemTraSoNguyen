@@ -12,3 +12,4 @@ C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\menu\obj\Debug\net8.0\refint\me
 C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\menu\obj\Debug\net8.0\menu.pdb
 C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\menu\obj\Debug\net8.0\menu.genruntimeconfig.cache
 C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\menu\obj\Debug\net8.0\ref\menu.dll
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\menu\obj\Debug\net8.0\menu.sourcelink.json

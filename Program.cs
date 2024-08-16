@@ -20,7 +20,8 @@ namespace menu
              Console.WriteLine("Ban chon mon nao ?");
              luachon = Int32.Parse(Console.ReadLine())
             }
-            Console.WriteLine("Xin chao, hen gap lai"); */
+            Console.WriteLine("Xin chao, hen gap lai"); 
+
 
             int choice;
 
@@ -70,9 +71,45 @@ namespace menu
                     break;
             }
 
-            Console.WriteLine(); // Thêm dòng trống để dễ đọc hơn
+            Console.WriteLine(); // Thêm dòng trống để dễ đọc hơn */
+
+            int number;
+            Console.WriteLine("Enter a number: ");
+            number = Convert.ToInt32(Console.ReadLine());
+
+            // Kiểm tra nếu số nhỏ hơn 2
+            if (number < 2)
+            {
+                Console.WriteLine(number + " is not a prime number.");
+            }
+            else
+            {
+                int i = 2;
+                bool check = true;
+
+                // Kiểm tra từ 2 đến căn bậc 2 của số đã nhập
+                while (i <= Math.Sqrt(number))
+                {
+                    if (number % i == 0)
+                    {
+                        check = false;
+                        break;
+                    }
+                    i++;
+                }
+
+                // Kết quả kiểm tra
+                if (check)
+                {
+                    Console.WriteLine(number + " is a prime number.");
+                }
+                else
+                {
+                    Console.WriteLine(number + " is not a prime number.");
+                }
+            }
+        
 
         }
     }
-}
 }
